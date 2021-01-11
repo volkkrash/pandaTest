@@ -2,10 +2,10 @@
 
 class DB {
 
-  const USER = "volkrash_db";
-  const PASS = "LKY86svz";
-  const HOST = "volkrash.mysql.tools";
-  const DB = "volkrash_db";
+  const USER = "user";
+  const PASS = "";
+  const HOST = "localhost";
+  const DB = "";
 
   public static function connect() {
     $user = self::USER;
